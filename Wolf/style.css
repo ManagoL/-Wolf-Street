@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(70deg, #43128D, #130527);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* всесь текст */
+
+h1{
+    color: #fafafa;
+    font-size: 4vh;
+    font-family: "Inter", sans-serif;
+}
+
+p{
+    color: #fafafa;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+}
+
+label{
+    color: #fafafa;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+}
+/* /всесь текст */
+
+/* Блоки  */
+.block_tranz{
+    height: 75vh;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-bottom: 20vh;
+}
+/* первая часть */
+.block_1 {
+   height: 65vh;
+   width: 50vh;
+   background-color: #3D334C;
+   border-top-left-radius: 2em;
+   border-bottom-left-radius: 2em;
+   text-align: justify;
+   padding: 25px 30px 10px 40px;
+}
+/* вторая часть */
+.block_2{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+background-color: #f2f2f218;
+height: 65vh;
+width: 70vh;
+border-top-right-radius: 2em;
+border-bottom-right-radius: 2em;
+
+padding: 25px 30px 10px 40px;
+
+gap: 20px;
+}
+
+/* прочие */
+.input_tranz1{
+    height: 5vh;
+    width: 40vh;
+    border: none;
+    background: #fafafa;
+    border-radius: 10vh;
+    padding: 12px;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+    outline: none;
+}
+
+.input_tranz{
+    height: 5vh;
+    width: 30vh;
+    border: none;
+    background: #fafafa;
+    border-radius: 10vh;
+    padding: 12px;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius :0em;
+    outline: none;
+}
+
+.but_bank{
+    border: none;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    width: 10vh;
+    height: 5vh;
+    margin: 0;
+    padding: 12px;
+    font-size: 1.5vh;
+    top: 0;
+
+}
+
+.input_modal{
+    height: 5vh;
+    width: 45vh;
+    border: none;
+    background: #fafafa;
+    border-radius: 10vh;
+    padding: 12px;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+    outline: none;
+}
+
+.input_avtor{
+    height: 5vh;
+    width: 40vh;
+    border: none;
+    background: #fafafa;
+    border-radius: 2vh;
+    padding: 12px;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+    outline: none;
+}
+
+.Recviz{
+    height: 5vh;
+    width: 45vh;
+    border: none;
+    background: #fafafa;
+    border-radius: 10vh;
+    padding: 12px;
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif; 
+}
+
+.SVG_strelki{
+width: 4vh;
+height: 4vh;
+}
+
+button{
+    height: 5vh;
+    width: 20vh;
+    border:none;
+    border-radius: 10vh;
+    font-size: 3vh;
+    font-weight:bold;
+    font-family: "Inter", sans-serif;
+    background-color: #fafafa;
+
+    transition: all .5s ease 0s;
+}
+
+/* .avtor_but{
+    height: 5vh;
+    width: 25vh;
+    border:none;
+    border-radius: 10vh;
+    font-size: 2vh;
+    font-weight:bold;
+    font-family: "Inter", sans-serif;
+    background-color: #fafafa;
+}
+
+.avtor{
+    background-color: #13052700;
+    font-size: 1vh;
+
+}
+.avtor:hover{
+    color: #9747FF;
+} */
+
+
+@media (hover :hover){
+.button1:hover{
+    color: #fafafa;
+    background-color: #9747FF;
+}}
+
+@media (hover :none){
+    .button1:active{
+        color: #fafafa;
+        background-color: #9747FF;
+    }}
+/* /прочие */
+
+
+
+.cls1:hover{
+    fill:#9747FF;
+    cursor: pointer;
+}
+
+#myModal{ 
+    height: 65vh;
+    width: 120vh;
+    margin: auto;
+
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: none;
+    border-radius: 2rem;
+    background-color: #3f3350;
+    padding: 15px;
+    outline: none;
+    z-index:2;
+  
+}
+
+.modal-open {
+    overflow: hidden;
+    }
+
+.dialog_dlock{
+ display: flex;
+ justify-content: center;
+ overflow: hidden;
+ align-items: center;
+ word-wrap: wrap;
+ gap: 20vh;
+}
+
+.dialog_dlock2{
+    padding-left: 4vh;
+}
+
+.dialog_dlock3{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.dialog_dlock4{
+    padding-left: 4vh;
+}
+
+
+
+/* /модальное окно */
+
+
+/* .dialog_avtor{
+    height: 75vh;
+    width: 125vh;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: none;
+    border-radius: 2rem;
+    background-color: #3d334c;
+    padding: 15px;
+    outline: none;
+    z-index: 2;
+}
+
+.avtor_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vh;
+} */
+
+ .Posi_close1{
+    display: flex;
+    justify-content: end;
+}
+
+ 
+
+footer{
+ 
+    background-color: #212121;
+    height: 50vh;
+    
+}
+
+
+
+/* Бургер меню + header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    width: 700px; 
+    padding: 0 40px;
+}
+ 
+.nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg_burger:hover{
+fill: #9747FF;
+}
+
+.svg_burger{
+    fill: #fafafa;
+    transition: all 0.8s ease 0s;
+
+}
+
+.active .svg_burger{
+    transform: translate(-90px);
+}
+
+
+/* Анимации бургер миню */
+/* .burger.active span { 
+    transform: translate(-90px);
+    
+}
+
+.burger.active::before{
+    transform: translate(-90px) rotate(30deg);
+    width: 50%;
+    
+}
+
+.burger.active::after{
+    transform: translate(-90px) rotate(-30deg) ;
+    width: 50%;
+} */
+
+@keyframes burgerAnime {
+    from {
+        margin-left: 0;
+        width: 0;
+      } 
+    
+      to {
+        height: 100%;
+        width: 90px;
+      }
+    }
+
+    .open{
+        display: flex !important;
+    }
+/* /Анимации бургер меню */
+
+/* меню */
+
+.nav{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 90px;
+    z-index: 50;
+    right: 0%; bottom: 0; top: 0;
+    overflow: none;
+    overflow-x: none;
+    padding: 10px 0px;
+    background-color: #fafafa;
+    animation: burgerAnime 0.8s;
+}
+
+.nav ul{
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 0;
+    
+}
+
+.nav_elem{
+    height: 50px;
+    width: 90px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    fill:#fafafa;
+    border-radius: 0;
+    border: none;
+}
+
+.nav_elem:hover{
+    background-color: #9747FF;  
+    }
+
+
+.burger_svg{
+    height: 40px;
+    width: 40px;
+    fill:#000000;
+}
+
+.burger_svg:hover{
+    fill:#fafafa;
+}
+/*/ меню */
+
+
+
+
+
+/* /Бургер меню + header */
+
+
+/* input Numbers убирает стрелки */
+/* Google */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* FeirFox */
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+/* Другое */
+  input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* /input Numbers убирает стрелки */
+
+
+.dialog_avtor{
+    height: 65vh;
+    width: 130vh;
+    margin: auto;
+    border: none;
+    border-radius: 2rem;
+    background-color: #fafafa;
+    outline: none;
+    padding: 0;
+}
+
+.block_avtor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_avtor1{
+    margin: 0;
+    height: 65vh;
+    width: 65vh;
+    background-color: #2f0f5f;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding: 0;
+}
+
+
+
+.forma_coin{
+  display: flex;
+}
+
+.forma_bank{
+  display: flex;
+}
